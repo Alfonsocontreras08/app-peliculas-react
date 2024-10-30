@@ -3,7 +3,7 @@ import { Container, Avatar, AvatarContainer, Degrade} from "../styled.components
 import { getAuthConnection } from "../../common/auth";
 import { IItem, IMovie } from "../../interfaces/movie";
 import IronMan from '../../assets/iron-man.png'
-import Context from '../../context/AppContext'
+
 const Carousel = () => {
   const [ data, setData ] = useState<IMovie[]>([]);
   
